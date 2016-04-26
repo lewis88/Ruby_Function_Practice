@@ -66,5 +66,5 @@ end
 
 #Days until christmas, Calculate how many nights there are from today until Christmas morning
 def days_to_xmas()
-  return (Date.local(2016, 12, 25) - Date.now)
+  return (Date.new(2016, 12, 25) - Date.now)
 end
